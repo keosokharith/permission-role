@@ -170,15 +170,15 @@
 		use Zizaco\Entrust\EntrustPermission;
 		class Permission extends EntrustPermission{}
 
-### 14. opend app\database\seeds
+### 15. opend app\database\seeds
 
     $this->call(PermissionTableSeeder::class);
 
-### 15. run command
+### 16. run command
 
     php artisan db:seed --class=PermissionTableSeeder
 
-### 16. add route app\routes\web.php
+### 17. add route app\routes\web.php
 
 	Route::group(['prefix' => 'home','middleware' => ['auth']], function() {
 
@@ -199,7 +199,7 @@
 
 		});
 		
-### 17. add controller RoleController
+### 18. add controller RoleController
 	## RoleController
 		<?php
 
@@ -331,7 +331,7 @@
 			    }
 			}
 			
-### 18. add controller UserController
+### 19. add controller UserController
 
 	## RoleController
 	
