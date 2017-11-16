@@ -1,0 +1,23 @@
+.color-red{color: red;}
+.fileinput{text-align: center;}
+.banner .carousel-inner > .item > a > img, 
+.banner .carousel-inner > .item > img, 
+.banner .img-responsive, 
+.banner .thumbnail a > img, 
+.banner .thumbnail > img{ height: 200px; }
+.chosen-with-drop{ position: relative;}
+label{ font-weight: 500 !important;  }	
+.modal-body .fileinput{
+	text-align: center;
+	width: 100%
+}
+.mywrapper{
+	float: left;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 20px 0px;
+    border: 1px solid #dadada;
+}
+.table-responsive {
+    display: table;
+}
